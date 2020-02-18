@@ -31,12 +31,19 @@
 // console.log(`die tich hinh tron ban kinh ${x} la: ${S}`);
 
 // alert(`chu vi hinh tron ban kinh ${x} la:${P}`)
-// let a = parseFloat(prompt("Mời nhập chiều dài"));
-// let b = parseFloat(prompt( "Mời nhập chiều rộng"));
-// let p = 2 * ( a + b);
-// let s = a * b
-// alert(`Chu vi hình chữ nhật chiều dài ${a} chiều rộng${b} là: ${p}`);
-// alert(`Diện tích hình chữ nhật chiều dài ${a} chiều rộng${b} là: ${s}`);
+ let a = parseFloat(prompt("Mời nhập chiều dài"));
+ let b = parseFloat(prompt( "Mời nhập chiều rộng"));
+ let p = 2 * ( a + b);
+let s = a * b
+alert(`Chu vi hình chữ nhật chiều dài ${a} chiều rộng${b} là: ${p}`);
+alert(`Diện tích hình chữ nhật chiều dài ${a} chiều rộng${b} là: ${s}`);
+
+
+console.log(typeof a );
+let name = " abc";
+console.log(typeof name);
+console.log(typeof 5 );
+console.log(typeof "abc");
 
 
 
