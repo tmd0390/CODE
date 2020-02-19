@@ -37,7 +37,7 @@ if (month === 1|| month ===3 || month===5 || month===7 ||month===8||month===10||
 } else if (month===2) {
     console.log("28 hoac 29");
     
-}else if (month ===4||month===6||month===11) {
+} else if (month ===4||month===6||month===11||month===9){
     console.log("30 ngay");
     
 }else{
