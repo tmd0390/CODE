@@ -1,5 +1,6 @@
 //alert("xin chao");// thong bao
-//prompt("ten ban la gi");// nhap thong tin nguoi dung
+//prompt("ten ban la gi");
+// nhap thong tin nguoi dung
 
 let age; // khai bao biến
 age = 25; // gan gia tri
