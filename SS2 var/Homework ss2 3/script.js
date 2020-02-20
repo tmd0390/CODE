@@ -21,3 +21,17 @@
 // let y = Math.sin(x * x *Math.PI) + Math.sqrt( x * x + 1) / Math.pow(Math.E,2*x) + Math.cos(Math.PI * x / 4)
 // console.log(y);
 
+//Bài 4
+// let money = parseInt(prompt("Nhập số tiền"))
+// let x = parseInt(money/100000)
+// let y = parseInt((money - x*100000) / 50000)
+// let z = parseInt((money - x *100000 - y * 50000)/20000)
+// let o = parseInt((money - x *100000 - y * 50000 - z * 20000)/ 10000)
+// console.log(`${money}vnd = ${x}Tờ100.000+${y}Tờ5.0000+${z}Tờ20.000+${o}Tờ1.0000`);
+//Bài 5
+// let num = Number(prompt("Nhập số có 3 chứ số"))
+// let a = parseInt(num/100)
+// let b = parseInt((num-a*100)/10)
+// let c = parseInt((num - a*100-b*10))
+// let d = Number(a + b + c)
+// console.log(`Số ${num}có tổng các chữ số là:${a}+${b}+${c}=${d}`);
