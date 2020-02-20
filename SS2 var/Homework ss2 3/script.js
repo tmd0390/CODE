@@ -16,7 +16,6 @@
 //  let y;
 //  y = 4 * (Math.pow(x,2) + 10 * x * Math.sqrt(Math.pow(x,2) + 3 * x + 1));
 //  console.log(y);
-//Bài 4
 // let a = Number(prompt("Nhập x"));
 // let x = a * Math.PI / 180
 // let y = Math.sin(x * x *Math.PI) + Math.sqrt( x * x + 1) / Math.pow(Math.E,2*x) + Math.cos(Math.PI * x / 4)
