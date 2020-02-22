@@ -18,7 +18,7 @@
 //  console.log(y);
 // let a = Number(prompt("Nhập x"));
 // let x = a * Math.PI / 180
-// let y = Math.sin(x * x *Math.PI) + Math.sqrt( x * x + 1) / Math.pow(Math.E,2*x) + Math.cos(Math.PI * x / 4)
+// let y = (Math.sin(x * x *Math.PI) + Math.sqrt( x * x + 1)) /( Math.pow(Math.E,2*x) + Math.cos(Math.PI * x / 4))
 // console.log(y);
 
 //Bài 4
