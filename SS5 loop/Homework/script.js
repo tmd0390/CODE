@@ -41,12 +41,56 @@
     
 // }
 //Bài 5
-let n = parseInt(prompt("Nhập số"));
-let s = 0;
-let i = 0;
-for(i=0;i<=n;i++){
-    s=s+i
+// let n = parseInt(prompt("Nhập số"));
+// let s = 0;
+// let i = 0;
+// for(i=0;i<=n;i++){
+//     s=s+i
     
-}
-console.log(`Tổng của ${n}=${s}`);
+// }
+// console.log(`Tổng của ${n}=${s}`);
 
+//Bài 6
+// let n = parseInt(prompt("Nhập số"));
+// let s = 0;
+// let i = 0;
+// for(i=1;i<=2*n;i+=2){
+//     s=s+i
+    
+// }
+// console.log(`Tổng của ${n}=${s}`);
+//Bài 7
+// let n = parseInt(prompt("Nhập số"));
+// let s = 0;
+// let i = 0;
+// for(i=0;i<=2*n;i+=2){
+//     s=s+i
+    
+// }
+// console.log(`Tổng của ${n}=${s}`);
+//Bài 8
+// let n = parseInt(prompt("Nhập số"));
+// let s = 0;
+// let i = 0;
+// for(i=0;i<=n;i++){
+//     s=s+1/i
+    
+// }
+// console.log(`Tổng của ${n}=${s}`);
+
+//Bài 9
+// let n = parseInt(prompt("Nhập số"));
+// let s = 0;
+// let i = 0;
+// for(i=0;i<=n;i++){
+//     s=s+1/i*(i++)
+    
+// }
+// console.log(`Tổng của ${n}=${s}`);
+//Bài 10
+
+
+
+
+
+//Bài 11
