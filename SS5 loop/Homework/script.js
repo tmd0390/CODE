@@ -94,3 +94,23 @@
 
 
 //Bài 11
+let a = Number(prompt("Nhập số a"));
+let b = Number(prompt("Nhập số b")); 
+for(let i = 0;i<=a;i++){
+    for(let j = 0; j<=b;j++){
+        document.write("*")
+       
+        
+          
+    }
+}
+//Bài 14
+// let pass = prompt("Nhập pass");
+// while (pass.length<8) {
+//     pass = prompt("Nhập lại pass");
+// }console.log(pass);
+//Bài 15
+// let pass=prompt("Nhập pass");
+// while (!(pass.length>=8 && pass.indexOf("$")>=0&& pass.indexOf("%")>=0&& pass.indexOf("_")>=0 ) ) {
+//     pass=prompt("Nhập lại pass");
+// }console.log(pass);
