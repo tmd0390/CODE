@@ -88,22 +88,53 @@
 // }
 // console.log(`Tổng của ${n}=${s}`);
 //Bài 10
+// let n = parseInt(prompt("Nhập số"))
+// let f1=1,f2=1;
+// let count=2
+// for (let i = 1; i < n/2; i++) {
+//     f1=f1+f2;
+//     count++
+//     f2=f1+f2
+//     count++
+// }
+// console.log(`f${count-1}:${f1},f${count}:${f2}`);
 
 
 
-
-
-//Bài 11
-let a = Number(prompt("Nhập số a"));
-let b = Number(prompt("Nhập số b")); 
-for(let i = 0;i<=a;i++){
-    for(let j = 0; j<=b;j++){
-        document.write("*")
-       
+//Bài 11+12
+// let a = parseInt(prompt("Nhập chiều dài"));
+// let b = parseInt(prompt("Nhập chiều rộng"));
+// let s ='';
+// for(let i = 0;i <= b;i++){
+//     s+="*"
+//     console.log(s);
+    
+// }//12
+// let result='';
+// for(let j = 0; j<= a;j++){
+//   result+=s+'\n'
         
-          
+//  }console.log(result);//11
+//bai 16
+let n = parseInt(prompt("nhap so"))
+let soLuongUocSo= 0;
+for(let i = 1;i<=n;i++){
+    if(n%i ===0){
+        console.log(i);
+        soLuongUocSo++
+        if (soLuongUocSo>2) {
+            break;
+        }
     }
 }
+ if (soLuongUocSo>2) {
+     console.log("hop so");
+     
+ }else{
+     console.log("so nguyen to");
+     
+ }
+    
 //Bài 14
 // let pass = prompt("Nhập pass");
 // while (pass.length<8) {

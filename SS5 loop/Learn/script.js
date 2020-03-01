@@ -143,7 +143,19 @@
     
 //        m=Number(prompt("Nhập lại số"))
 // }console.log(m);
-let pass=prompt("Nhập pass")
-while (!(pass.length>=8 && pass.indexOf("@")>=0 ) ) {
-    pass=prompt("Nhập lại pass")
-}console.log(pass);
+// let pass=prompt("Nhập pass")
+// while (!(pass.length>=8 && pass.indexOf("@")>=0 ) ) {
+//     pass=prompt("Nhập lại pass")
+// }console.log(pass);
+
+
+
+let n = 10;
+for (let i = 0; i <=n ;i++) {
+    if (i%2===1) {
+        continue;
+    }
+    console.log(i);
+}
+
+
