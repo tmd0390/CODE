@@ -1,4 +1,4 @@
-// let arr = [1, 2, 3, 4,5]
+//  let arr = [1, 2, 3, 4,5]
 
 // let listNumbers = [1, 2, 3, 4, 5];
 // let listName = ["Dương", "Nga", `Nguyên`];
@@ -93,4 +93,59 @@
 // arr[stt-1]=parseInt(prompt("nhap gia tri moi"));
 // sắp xếp rồi in
 //hàm sort
-//Thuận toán sắp xêps
+//arr.sort();//tăng dần
+//arr.reverse();//đảo ngược thứ tự
+
+
+//Thuận toán sắp xếp
+// let arr =[9,5,2,3,1,8,0]
+// for (let i = 0; i < arr.length-1; i++) {
+//     for (let j = i+1; j < arr.length; j++) {
+//         if (arr[i] >arr[j]) {
+//             let temp = arr[i];
+//             arr[i]=arr[j];
+//             arr[j]=temp;
+//         }
+        
+//     }
+    
+// }console.log(arr);
+
+
+//tim ko phan biet hoa thuong (chuyển hết về chữ hoa hoặc thường)
+// let n = prompt("nhap n");
+// let = isExist = false;//kiem tra co ton tai hay ko
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     if (element.toUpperCase() === n.toUpperCase()) {
+//         isExist = true;
+//         break;
+//     }
+// }
+
+// if (isExist) {
+//     console.log("n thuoc mang");
+    
+// }else{
+//     console.log("n ko thuoc bang");
+    
+// }
+// tìm số lượng giống nhau
+// let cuont=0;
+//  let n = prompt("nhap n");
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     if (element.toUpperCase() === n.toUpperCase()) {
+       
+//         cuont++;
+//     }
+// }
+
+// if (cuont>0) {
+//     console.log("có tồn tại và có"+ cuont+ "số trùng");
+    
+// }else{
+//     console.log("n ko thuoc bang");
+    
+// }
+//đánh 1 chữ tìm ra cả tên
