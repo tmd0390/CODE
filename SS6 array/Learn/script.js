@@ -115,7 +115,7 @@
 //tim ko phan biet hoa thuong (chuyển hết về chữ hoa hoặc thường)
 // let n = prompt("nhap n");
 // let = isExist = false;//kiem tra co ton tai hay ko
-// for (let i = 0; i < arr.length; i++) {
+// for (let i = 0; i < arr.length; i++) {   
 //     const element = arr[i];
 //     if (element.toUpperCase() === n.toUpperCase()) {
 //         isExist = true;
