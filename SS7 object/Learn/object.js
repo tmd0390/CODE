@@ -164,3 +164,28 @@ for (let i = 0; i < listphone.length; i++) {
     console.log("Ko tìm thấy kết quả nào"); 
   }
 }   
+// 6:
+  let min = parseInt(prompt("Giá nhỏ nhất là"));
+  let max = parseInt(prompt("Giá lớn nhất là"));
+  console.log( ` Số điện thoại nằm trong tầm giá từ ${min} đến ${max} là `)
+  for (i = 0; i < listphone.length; i++) {
+    if (
+      listphone[i].price >= min && listphone[i].price <= max
+    ) {
+      console.log(listphone[i].name);
+         
+     ;
+   }
+ }
+//7
+let brand= prompt("Nhập tên hãng sx");
+console.log(`Số điện thoại thuộc hãng ${brand}`);
+for (i = 0; i < listphone.length; i++) {
+  if (
+    listphone[i].brand.toUpperCase()===brand.toUpperCase()
+  ) {
+    console.log(listphone[i].name);
+       
+   ;
+ }
+}
