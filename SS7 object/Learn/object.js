@@ -157,7 +157,7 @@ for (let i = 0; i < listphone.length; i++) {
 let sear = prompt("Nhập tên điện thoại muốn tìm")
 for (let i = 0; i < listphone.length; i++) {
   const element = listphone[i];
-  if ((listphone[i].name).toUpperCase()===sear.toUpperCase()) {
+  if ((listphone[i].name).toUpperCase().includes(sear.toUpperCase())) {
     console.log(listphone[i].name);
     break;
   } else {
@@ -182,10 +182,32 @@ let brand= prompt("Nhập tên hãng sx");
 console.log(`Số điện thoại thuộc hãng ${brand}`);
 for (i = 0; i < listphone.length; i++) {
   if (
-    listphone[i].brand.toUpperCase()===brand.toUpperCase()
+    listphone[i].brand.toUpperCase().includes(brand.toUpperCase())
   ) {
     console.log(listphone[i].name);
        
    ;
  }
+}
+//8
+for (let i = 0; i < listphone.length - 1; i++) {
+  for (let j = i + 1; j < listphone.length; j++) {
+    if (listphone[i].brand.toLowerCase().localeCompare(listphone[j].brand.toLowerCase()) > 0) {
+      let temp = listphone[i];
+      listphone[i] = listphone[j];
+      listphone[j] = temp;
+    }
+  }
+}
+// in ra
+console.log("====== Sắp xếp ======");
+
+for (let i = 0; i < listphone.length; i++) {
+  const phone = listPhone[i];
+  console.log(i + 1);
+  for (const key in phone) {
+    const value = phone[key];
+    console.log("\t" + key + ": " + value);
+  }
+  console.log('\t --- \t --- ');
 }
