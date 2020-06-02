@@ -3,27 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product</title>
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
+    <div class="container">
     <h1>Danh sách điện thoại</h1>
+    <div class="row mb-3">
+    <form  class="col-6">
+        <div class="form-group">
+          <label for="search-product-name">Search Name Phone</label>
+          <input type="text" class="form-control" id="search-product-name" placeholder="Search by name" >
+          
+        </div>
+        <button type="button" onclick="search()" class="btn btn-primary">Search</button>
+      </form>
+    </div>
     <table class="table table-striped" >
-        <!-- <thead>
+        <thead>
             <tr>
+                <th>STT</th>
                 <th>Ảnh </th>
                 <th>Tên</th>
                 <th>Hãng</th>
                 <th> Giá </th>
+                <th>Action</th>
             </tr>
-        </thead> -->
-        <tbody id="phones">
- 
+        </thead>
+        <tbody id="list-products">
+            
         </tbody>
     </table>
-    <script src="phone.js"></script>
+    </div>
+    <script src="product.js"></script>
     
-    
+   
 </body>
 </html>
